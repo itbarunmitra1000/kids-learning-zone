@@ -8,6 +8,7 @@ import Service from './Components/Service/Service';
 import Home from './Components/Home/Home';
 import AboutUs from './Components/About Us/AboutUs';
 import ContactUs from './Components/Contact Us/ContactUs';
+import { NotFound } from 'http-errors';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path='/contact'>
             <ContactUs></ContactUs>
+          </Route>
+          <Route exact path='*'>
+            <NotFound></NotFound>
           </Route>
 
         </Switch>
