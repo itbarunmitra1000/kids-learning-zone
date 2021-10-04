@@ -1,0 +1,50 @@
+[
+    {
+        "key": 1,
+        "course": "English courses for children aged 6–17",
+        "img": "https://thumbs.dreamstime.com/z/english-kids-vector-illustration-two-kids-learning-english-language-school-children-studying-foreign-languages-72344335.jpg",
+        "duration": 6
+    },
+    {
+        "key": 2,
+        "course": "Grammar and vocabulary courses",
+        "img": "https://cdn.slidesharecdn.com/ss_thumbnails/howtoteachgrammartokids-150105041054-conversion-gate02-thumbnail-4.jpg?cb=1420431282",
+        "duration": 3
+    },
+    {
+        "key": 3,
+        "course": "Online English courses for you",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDCYPf_fG5Jze9sLPCbHyUQKG-4qDDXe2vWspotDd64WzSndBkTnGgH8vaS5-SnPi8kSk&usqp=CAU",
+        "duration": 2
+    },
+    {
+        "key": 4,
+        "course": "Fun and Learn English",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDRn5PL2yZ5Z4_ZZ6MQ7ELUehCJGfgwnCPZPKZDHHi8DVlnVbMOgspOnnqwvM182vsgLA&usqp=CAU",
+        "duration": 5
+    },
+    {
+        "key": 5,
+        "course": "English courses With Video Playlist",
+        "img": "https://www.kidwise.in/wp-content/uploads/2020/04/iStock-950603046.jpg",
+        "duration": 6
+    },
+    {
+        "key": 6,
+        "course": "Online English courses for adults",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyv1QtYLxzWQ_hWpl9XGjpNv8Y5v_SLY1avw&usqp=CAU",
+        "duration": 3
+    },
+    {
+        "key": 7,
+        "course": "Speak English Course",
+        "img": "https://d2jg2pri5bpndu.cloudfront.net/photos/thumbnail/2019/06/11/9212/1500_8ab220ea63ba9917177ba142b7342672.png",
+        "duration": 8
+    },
+    {
+        "key": 8,
+        "course": "Speak English Course for Adults",
+        "img": "https://i.ytimg.com/vi/XVQlnP5Yu2A/maxresdefault.jpg",
+        "duration": 12
+    }
+]

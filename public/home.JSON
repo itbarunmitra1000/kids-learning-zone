@@ -1,0 +1,30 @@
+[
+    {
+        "key": 1,
+        "course": "English courses for children aged 6–17",
+        "img": "https://thumbs.dreamstime.com/z/english-kids-vector-illustration-two-kids-learning-english-language-school-children-studying-foreign-languages-72344335.jpg",
+        "description": "Discover our English courses for children: Primary Plus for ages 6–12 and Secondary Plus for ages 12–17.",
+        "duration": 6
+    },
+    {
+        "key": 2,
+        "course": "Grammar and vocabulary courses",
+        "img": "https://cdn.slidesharecdn.com/ss_thumbnails/howtoteachgrammartokids-150105041054-conversion-gate02-thumbnail-4.jpg?cb=1420431282",
+        "description": " lively classes with a specialist teacher, who will encourage their curiosity and keep them motivated to practise speaking English ",
+        "duration": 3
+    },
+    {
+        "key": 3,
+        "course": "Online English courses for you",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDCYPf_fG5Jze9sLPCbHyUQKG-4qDDXe2vWspotDd64WzSndBkTnGgH8vaS5-SnPi8kSk&usqp=CAU",
+        "description": "Our classes focus on practical skills and interactive exercises. Each module is brought to life with activities",
+        "duration": 2
+    },
+    {
+        "key": 4,
+        "course": "Fun and Learn English",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDRn5PL2yZ5Z4_ZZ6MQ7ELUehCJGfgwnCPZPKZDHHi8DVlnVbMOgspOnnqwvM182vsgLA&usqp=CAU",
+        "description": "At home your child will improve their language skills with engaging, high-quality online learning resources that keep them motivated.",
+        "duration": 5
+    }
+]
