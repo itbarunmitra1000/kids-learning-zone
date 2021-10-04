@@ -1,9 +1,9 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
-import './HomeCard.css';
+import './ServiceCard.css'
 
-const HomeCard = (props) => {
+const ServiceCard = (props) => {
     const {img,course,description,duration} = props.service;
     return (
         <div  >
@@ -22,4 +22,4 @@ const HomeCard = (props) => {
     );
 };
 
-export default HomeCard;
+export default ServiceCard;

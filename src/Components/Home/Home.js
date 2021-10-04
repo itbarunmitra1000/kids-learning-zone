@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
+import {Row } from 'react-bootstrap';
 import HomeCard from '../HomeCard/HomeCard';
+import './Home.css';
 
 const Home = () => {
     const [services, setServices] = useState([]);
@@ -14,7 +15,9 @@ const Home = () => {
         <div className= 'card-container' >
           <Row xs={1} md={2} lg={2} className="g-4">
                 {
-                    services.map(service =><HomeCard service={service}></HomeCard>)
+                    services.map(service =><HomeCard 
+                    key={service.key}
+                    service={service}></HomeCard>)
             }
             </Row>
 
