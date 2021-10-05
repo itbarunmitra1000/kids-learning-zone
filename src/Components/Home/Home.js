@@ -15,11 +15,13 @@ const Home = () => {
     }, []);
     return (
         <>
+        {/* header component add  */}
         <Header></Header>
         <div className= 'd-flex justify-content-center'>
         <div className= 'card-container ' >
         
         <Row xs={1} md={2} lg={2} className="g-4">
+        {/* service data maping  */}
               {
                   services.map(service =><HomeCard 
                   key={service.key}
@@ -29,6 +31,7 @@ const Home = () => {
 
       </div>
         </div>
+        {/* footer component add  */}
         <Footer></Footer>
         </>
     );

@@ -12,6 +12,7 @@ import  NotFound  from './Components/NotFound/NotFound';
 function App() {
   return (
     <div className="App">
+    {/*  browser routing  */}
       <BrowserRouter>
         
         <Switch>

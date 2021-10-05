@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
+    // header nav bar 
     <Navbar bg="dark"  variant="dark">
       <Container className='d-flex justify-content-center'>
         <Navbar.Brand href="/home" className='text-warning fw-bolder'>Kids Learning Zone</Navbar.Brand>
