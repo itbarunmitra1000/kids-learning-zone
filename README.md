@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# kids learning zone 
 
 This project was kids learning zone [kids learning zone](https://kids-learning-zone.netlify.app/).
 
