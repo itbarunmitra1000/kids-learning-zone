@@ -8,12 +8,12 @@ const ServiceCard = (props) => {
     return (
         <div  >
             <Col>
-                <Card  >
+                <Card className='shadow'  >
                     <Card.Img variant="top image-size" src={img} />
                     <Card.Body>
-                        <Card.Title>{course}</Card.Title>
-                        <Card.Title>{description}</Card.Title>
-                        <Card.Text>Duration: {duration} Month</Card.Text>
+                        <Card.Title className='fw-bolder fs-2 text-danger'>{course}</Card.Title>
+                        <Card.Title className="fs-6">{description}</Card.Title>
+                        <Card.Text className='text-success fs-4 fw-bolder'>Duration: {duration} Month</Card.Text>
                        <Button variant="success" className="btn-primary p-2 rounded">Enroll Course</Button>
                     </Card.Body>
                 </Card>

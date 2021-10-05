@@ -16,16 +16,18 @@ const Home = () => {
     return (
         <>
         <Header></Header>
-        <div className= 'card-container' >
+        <div className= 'd-flex justify-content-center'>
+        <div className= 'card-container ' >
         
-          <Row xs={1} md={2} lg={2} className="g-3">
-                {
-                    services.map(service =><HomeCard 
-                    key={service.key}
-                    service={service}></HomeCard>)
-            }
-            </Row>
+        <Row xs={1} md={2} lg={2} className="g-4">
+              {
+                  services.map(service =><HomeCard 
+                  key={service.key}
+                  service={service}></HomeCard>)
+          }
+          </Row>
 
+      </div>
         </div>
         <Footer></Footer>
         </>

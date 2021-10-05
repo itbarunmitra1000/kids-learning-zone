@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <Navbar bg="dark" variant="dark">
-      <Container>
+    <Navbar bg="dark"  variant="dark">
+      <Container className='d-flex justify-content-center'>
         <Navbar.Brand href="/home" className='text-warning fw-bolder'>Kids Learning Zone</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link as={NavLink} to="/home">Home</Nav.Link>

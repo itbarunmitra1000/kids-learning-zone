@@ -16,6 +16,7 @@ const Service = () => {
     return (
         <>
         <Header></Header>
+        <div  className= 'd-flex justify-content-center'>
         <div className= 'card-container'>
          <Row xs={1} md={2} lg={2} className="g-4">
             {
@@ -26,6 +27,7 @@ const Service = () => {
                     
             }
             </Row>
+        </div>
         </div>
         <Footer></Footer>
         </>
