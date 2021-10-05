@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 import ServiceCard from '../ServiceCard/ServiceCard';
 import './Service';
 
@@ -12,6 +14,8 @@ const Service = () => {
 
     }, []);
     return (
+        <>
+        <Header></Header>
         <div className= 'card-container'>
          <Row xs={1} md={2} lg={2} className="g-4">
             {
@@ -23,6 +27,8 @@ const Service = () => {
             }
             </Row>
         </div>
+        <Footer></Footer>
+        </>
     );
 };
 

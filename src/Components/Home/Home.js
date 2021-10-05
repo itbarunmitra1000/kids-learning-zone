@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {Row } from 'react-bootstrap';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 import HomeCard from '../HomeCard/HomeCard';
 import './Home.css';
 
@@ -12,8 +14,11 @@ const Home = () => {
 
     }, []);
     return (
+        <>
+        <Header></Header>
         <div className= 'card-container' >
-          <Row xs={1} md={2} lg={2} className="g-4">
+        
+          <Row xs={1} md={2} lg={2} className="g-3">
                 {
                     services.map(service =><HomeCard 
                     key={service.key}
@@ -22,6 +27,8 @@ const Home = () => {
             </Row>
 
         </div>
+        <Footer></Footer>
+        </>
     );
 };
 
