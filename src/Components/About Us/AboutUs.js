@@ -16,7 +16,7 @@ const AboutUs = () => {
             We are always trying to better performance to build good communication and good mind set
            </p>
         </div>
-        footer component
+        {/* footer component */}
         <Footer></Footer>
         </>
     );
