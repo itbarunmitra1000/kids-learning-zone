@@ -6,7 +6,8 @@ import Service from './Components/Service/Service';
 import Home from './Components/Home/Home';
 import AboutUs from './Components/About Us/AboutUs';
 import ContactUs from './Components/Contact Us/ContactUs';
-import { NotFound } from 'http-errors';
+import  NotFound  from './Components/NotFound/NotFound';
+
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <BrowserRouter>
         
         <Switch>
+        <Route exact path= '/'>
+            <Home></Home>
+        </Route>
           <Route path='/home'>
             <Home></Home>
           </Route>
@@ -26,7 +30,9 @@ function App() {
           <Route path='/contact'>
             <ContactUs></ContactUs>
           </Route>
-
+        <Route exact path='*'>
+          <NotFound></NotFound>
+        </Route>
         </Switch>
         
       </BrowserRouter>
